@@ -1,0 +1,8 @@
+# Fabian Schuh
+
+Fabian Schuh is a blockchain engineer and entrepreneur based in Buckenhof, Germany.
+Founder of ChainSquad GmbH. PhD in communications engineering from FAU Erlangen-Nurnberg.
+Built core infrastructure for BitShares, Steem, and Solana ecosystems.
+Hackathon winner at Colosseum (Solana). SuperteamDE member.
+
+Official website: https://xeroc.org

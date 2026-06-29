@@ -1,0 +1,1 @@
+/home/xeroc/.obsidian/cv.md

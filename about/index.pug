@@ -1,0 +1,246 @@
+doctype html
+html(lang="en")
+  head
+    title About — Fabian Schuh
+    meta(name="description", content="Dr.-Ing. Fabian Schuh — blockchain engineer, entrepreneur, and researcher. Founder of ChainSquad GmbH. PhD in communications engineering from FAU Erlangen-Nurnberg.")
+    meta(property="og:site_name", content="Fabian Schuh")
+    meta(property="og:title", content="About — Fabian Schuh")
+    meta(property="og:type", content="profile")
+    meta(property="og:description", content="Blockchain engineer, entrepreneur, and researcher. Founder of ChainSquad GmbH. PhD, FAU Erlangen-Nurnberg.")
+    meta(property="og:image", content="https://xeroc.org/fabian-schuh.png")
+    meta(property="og:url", content="https://xeroc.org/about")
+    meta(property="twitter:card", content="summary_large_image")
+    link(rel="canonical", href="https://xeroc.org/about")
+    include _head
+
+  body
+    header(class="border-b border-ink")
+      div(class="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 flex justify-between items-center py-5")
+        a(class="font-display text-xl tracking-tight", href="/") xeroc
+        nav(class="flex items-center gap-6 font-mono text-xs uppercase tracking-widest")
+          a(class="border-b border-transparent hover:border-ink transition-colors duration-100", href="/") Home
+
+    main
+      // masthead
+      section(class="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 py-20 md:py-28")
+        p(class="font-mono text-xs uppercase text-muted-fg mb-6", style="letter-spacing:0.25em") About
+        h1(class="font-display font-black tracking-tighter", style="font-size:clamp(2.75rem,9vw,6rem);line-height:0.92") Dr.-Ing. Fabian Schuh
+        p(class="font-serif text-lg md:text-xl mt-6 max-w-2xl leading-relaxed")
+          | Blockchain engineer, entrepreneur, and researcher. Founder of ChainSquad GmbH.
+          | PhD in communications engineering from FAU Erlangen-Nürnberg.
+        p(class="font-mono text-xs uppercase text-muted-fg mt-6", style="letter-spacing:0.2em") Buckenhof, Germany · github.com/xeroc · @xer0c
+
+      hr(class="border-0 border-t-4 border-ink")
+
+      // §01 Bio
+      section(class="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 py-16 md:py-20")
+        h2(class="font-mono text-xs uppercase text-muted-fg mb-10 flex items-center gap-4", style="letter-spacing:0.2em")
+          span §01
+          span Bio
+        div(class="max-w-3xl space-y-6 font-serif text-base md:text-lg leading-relaxed")
+          p
+            | Dr.-Ing. Fabian Schuh is a blockchain engineer and entrepreneur based in Buckenhof, Germany.
+            | He is the founder and CEO of #[a(class="underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://chainsquad.com") ChainSquad GmbH],
+            | a technology consultancy delivering Web2 and Web3 infrastructure since 2016.
+            | He holds a PhD in communications engineering from Friedrich-Alexander-Universität Erlangen-Nürnberg,
+            | where his research focused on digital communications, low-latency transmission, and constant-envelope signalling.
+          p
+            | His blockchain work began in the Graphene era: as a founding member of Cryptonomex Inc. he wrote the
+            | full-featured Python libraries for BitShares, Steem, Peerplays, and the underlying
+            | #[code graphenelib]. He led Python development and advisory work at Steemit Inc., built Streemian.com
+            | as a solo MicroSaaS (later acquired), and contributed to early DAO governance and escrow systems on
+            | BitShares — including being among the first people hired and paid directly by a blockchain.
+          p
+            | Since 2023 his focus has shifted to the Solana ecosystem. He ships recurring-payment infrastructure at
+            | #[a(class="underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://tributary.so") tributary.so],
+            | prediction-market and betting rails at
+            | #[a(class="underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://mash.fun") mash.fun]
+            | and DeFi tooling through Lucky Swaps. He is a Colosseum hackathon winner, a Solana Security #2 graduate, and a SuperteamDE member.
+          p
+            | The current chapter is AI agents: multi-agent software-development automation at
+            | #[a(class="underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://chaoscraft.dev") chaoscraft.dev]
+            | and Polycode, agent-friendly payment primitives (lando,
+            | #[a(class="underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://allowly.app") allowly.app]),
+            | and onchain agent tooling — most recently recognised at the 2026 Colosseum Frontier hackathon for building an autonomous onchain agent with the Zerion CLI.
+
+      hr(class="border-0 border-t-4 border-ink")
+
+      // §02 Academic
+      section(class="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 py-16 md:py-20")
+        h2(class="font-mono text-xs uppercase text-muted-fg mb-10 flex items-center gap-4", style="letter-spacing:0.2em")
+          span §02
+          span Academic
+        ul(class="list-none p-0 m-0")
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2015
+            div
+              div(class="font-serif text-lg") Dr.-Ing., FAU Erlangen-Nürnberg
+              p(class="text-muted-fg mt-1") PhD in communications engineering, graded "Very Good". Thesis: Digital Communications for Low Latency and Applications for Constant Envelope Signalling.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2010
+            div
+              div(class="font-serif text-lg") Dipl.-Ing., FAU Erlangen-Nürnberg
+              p(class="text-muted-fg mt-1") Electrical engineering, "Very Good". Thesis: Statistical Analysis and Evaluation of MIMO radio channel measurements.
+
+      hr(class="border-0 border-t-4 border-ink")
+
+      // §03 Research
+      section(class="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 py-16 md:py-20")
+        h2(class="font-mono text-xs uppercase text-muted-fg mb-10 flex items-center gap-4", style="letter-spacing:0.2em")
+          span §03
+          span Research
+        p(class="max-w-3xl font-serif text-base md:text-lg leading-relaxed mb-8")
+          | PhD thesis published as #[em Digital Communications for Low Latency and Applications for Constant Envelope Signalling]
+          | (Shaker Verlag, 2016, ISBN 978-3-8440-4410-2). Co-authored two PMSE coexistence reports (E 45a/b) for the LNT chair.
+          | Full bibliography on
+          | #[a(class="underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://dblp.org/pid/87/11471") DBLP].
+        ul(class="list-none p-0 m-0")
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2014
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="http://www.lit.lnt.de/papers/globecom_2014_schuh.pdf") GLOBECOM
+              p(class="text-muted-fg mt-1") Punctured vs. Multidimensional TCM – A Comparison w.r.t. Complexity. Austin, TX.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2014
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="http://www.lit.lnt.de/papers/icspcs_2014_schuh.pdf") ICSPCS
+              p(class="text-muted-fg mt-1") Modified Viterbi Algorithm for Efficient Optimal Decoding of Pragmatic-Punctured TCM. Gold Coast, AU.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2014
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="http://www.lit.lnt.de/papers/izs_2014_schuh.pdf") Int. Zurich Seminar
+              p(class="text-muted-fg mt-1") Low Complexity Decoding for Punctured TCM over ISI Channels.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2014
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://doi.org/10.1109/ISCCSP.2014.6877916") ISCCSP
+              p(class="text-muted-fg mt-1") Low Complexity Decoding for Higher Order Punctured TCM over ISI Channels.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2013
+            div
+              div(class="font-serif text-lg") ICNC'13, San Diego
+              p(class="text-muted-fg mt-1") Reduced Complexity Super-Trellis Decoding for Convolutionally Encoded Transmission over ISI-Channels.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2013
+            div
+              div(class="font-serif text-lg") SCC'2013, Munich
+              p(class="text-muted-fg mt-1") Nonlinear Trellis Description & Matched Decoding for Punctured Convolutional Encoded Transmission (2 papers).
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2010
+            div
+              div(class="font-serif text-lg") ICWMC 2010
+              p(class="text-muted-fg mt-1") Realization of a CDMA-based RFID System Using a Semi-active UHF Transponder. Best paper award.
+
+      hr(class="border-0 border-t-4 border-ink")
+
+      // §04 Key Projects
+      section(class="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 py-16 md:py-20")
+        h2(class="font-mono text-xs uppercase text-muted-fg mb-10 flex items-center gap-4", style="letter-spacing:0.2em")
+          span §04
+          span Key Projects
+        ul(class="list-none p-0 m-0")
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2016–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://chainsquad.com") ChainSquad GmbH
+              span(class="text-muted-fg")  — Founder & CEO. Web2/Web3 consultancy, 26+ projects delivered.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2014–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://github.com/xeroc/python-bitshares") python-bitshares
+              span(class="text-muted-fg")  — Full-featured library for the BitShares blockchain.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2014–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://github.com/xeroc/python-graphenelib") python-graphenelib
+              span(class="text-muted-fg")  — Core library for all Graphene-based chains.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2016–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://github.com/xeroc/python-steem") python-steem
+              span(class="text-muted-fg")  — Python library for the STEEM blockchain.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2025–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://tributary.so") Tributary
+              span(class="text-muted-fg")  — Recurring payments on Solana (subscription, milestone, pay-as-you-go).
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2024–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://mash.fun") mash.fun
+              span(class="text-muted-fg")  — Prediction markets and sports betting on Solana.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2024–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://luckyswaps.org") Lucky Swaps
+              span(class="text-muted-fg")  — Jupiter swap with a multiplier lever.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2025–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://contrib.so") contrib.so
+              span(class="text-muted-fg")  — Fundraising for creators on Solana.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2025–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://chaoscraft.dev") Chaoscraft
+              span(class="text-muted-fg")  — Collective-creation experiment: 1,000 people × $1 × AI agents.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2025–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://allowly.app") Allowly
+              span(class="text-muted-fg")  — Pocket money for kids and agents.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2025–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://github.com/xeroc") soltrace
+              span(class="text-muted-fg")  — Kafka/Postgres/Mongo event indexer for Solana programs.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2023–
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://repo.trade") repo.trade
+              span(class="text-muted-fg")  — Token launchpad for GitHub repositories.
+
+      hr(class="border-0 border-t-4 border-ink")
+
+      // §05 Hackathon Wins
+      section(class="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 py-16 md:py-20")
+        h2(class="font-mono text-xs uppercase text-muted-fg mb-10 flex items-center gap-4", style="letter-spacing:0.2em")
+          span §05
+          span Hackathon Wins
+        ul(class="list-none p-0 m-0")
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2014
+            div
+              div(class="font-serif text-lg") Trezor Hackathon
+              span(class="text-muted-fg")  — 2nd place.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2024
+            div
+              div(class="font-serif text-lg") Colosseum RADAR
+              span(class="text-muted-fg")  — Honorable mention.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2025
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://superteam.fun/earn/listing/dollar50000-in-security-audit-credits-for-solana-colosseum-hackathon") Colosseum Cypherpunk — Adevar
+              span(class="text-muted-fg")  — $10k Sidetrack win (5th place). Security audit credits.
+          li(class="border-b border-line last:border-b-0 py-5 grid gap-x-6", style="grid-template-columns:auto 1fr")
+            span(class="font-mono text-sm text-muted-fg w-14") 2026
+            div
+              a(class="font-serif text-lg underline decoration-1 underline-offset-4 hover:bg-ink hover:text-paper transition-colors duration-100", href="https://superteam.fun/earn/listing/build-an-autonomous-onchain-agent-using-the-zerion-cli") Colosseum Frontier — Autonomous Onchain Agent (Zerion CLI)
+              span(class="text-muted-fg")  — Winner.
+
+      hr(class="border-0 border-t-4 border-ink")
+
+      // §06 Elsewhere
+      section(class="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 py-16 md:py-20")
+        h2(class="font-mono text-xs uppercase text-muted-fg mb-10 flex items-center gap-4", style="letter-spacing:0.2em")
+          span §06
+          span Elsewhere
+        ul(class="flex flex-wrap gap-x-8 gap-y-3 list-none p-0 m-0 font-mono text-sm uppercase", style="letter-spacing:0.15em")
+          li: a(class="border-b border-transparent hover:border-ink transition-colors duration-100", href="https://github.com/xeroc") GitHub
+          li: a(class="border-b border-transparent hover:border-ink transition-colors duration-100", href="https://x.com/xer0c") X / Twitter
+          li: a(class="border-b border-transparent hover:border-ink transition-colors duration-100", href="https://www.linkedin.com/in/fabian-schuh/") LinkedIn
+          li: a(class="border-b border-transparent hover:border-ink transition-colors duration-100", href="https://dblp.org/pid/87/11471") DBLP
+          li: a(class="border-b border-transparent hover:border-ink transition-colors duration-100", href="mailto:mail@xeroc.org") Email
+
+    include _footer
