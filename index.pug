@@ -93,12 +93,12 @@ html(lang="en")
 
           div(class="lg:col-span-7 order-2 lg:order-1")
             p(class="font-mono text-xs uppercase text-muted-fg mb-5", style="letter-spacing:0.25em") Erlangen, Germany
-            h1(class="font-display font-black tracking-tighter", style="line-height:0.88")
+            h1(class="font-display font-black tracking-tighter", aria-label="Fabian Schuh", style="line-height:0.88")
               span(class="block", style="font-size:clamp(2.75rem,11vw,9.5rem)") Fabian
               span(class="block italic font-normal", style="font-size:clamp(2.75rem,11vw,9.5rem)") Schuh
             p(class="font-serif text-base md:text-lg lg:text-xl mt-6 max-w-xl leading-relaxed")
-              | PhD engineer, generalist by trade.
-              | I build infrastructure protocols on #[em Solana]: payments, arbitration, risk pools.
+              | I believe people can do more together than apart without surrendering control
+              | and build the machinery that makes direct cooperation work at scale.
 
             ul(class="flex flex-wrap gap-x-8 gap-y-2 mt-8 font-mono text-sm uppercase tracking-widest list-none p-0")
               li: a(class="border-b border-ink hover:bg-ink hover:text-paper transition-colors duration-100 px-1", href="/about") About →
@@ -108,6 +108,6 @@ html(lang="en")
 
           div(class="lg:col-span-5 order-1 lg:order-2 flex justify-center min-h-0")
             div(class="relative border-2 border-ink overflow-hidden h-[28vh] sm:h-[30vh] lg:h-[60vh] xl:h-[66vh] max-w-full", style="aspect-ratio:4/5")
-              img(class="grayscale w-full h-full object-cover", src="/fabian-schuh.png", alt="Fabian Schuh")
+              img(class="grayscale w-full h-full object-cover", src="/fabian-schuh.webp", width="1024", height="1024", alt="Fabian Schuh")
 
     include _footer

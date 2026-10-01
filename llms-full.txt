@@ -1,0 +1,59 @@
+# Fabian Schuh
+
+> Blockchain engineer (Dr.-Ing.) building peer-to-peer infrastructure on Solana — payments, arbitration, mutual risk pools. I believe people can do more together than apart, without surrendering control.
+
+Fabian Schuh is a blockchain engineer and entrepreneur based near Erlangen, Germany. Founder and CEO of ChainSquad GmbH. PhD (Dr.-Ing.) in communications engineering from Friedrich-Alexander-Universität Erlangen-Nürnberg. Two decades of work across Bitcoin, Ethereum, EOSIO and Solana ecosystems, with deep roots in the BitShares, Steem and Graphene era of decentralized exchanges and social media.
+
+## Why
+
+I believe people can do more together than apart, without surrendering control — and build the machinery that makes direct cooperation work at scale. Every project removes a gatekeeper or gives peers direct capability: direct value transfer, direct dispute resolution, direct collective risk coverage.
+
+## About
+
+- Website: https://xeroc.org
+- Location: Buckenhof/Erlangen, Germany
+
+## Current Projects
+
+- **Tributary** (https://tributary.so) — recurring payments protocol on Solana. One smart contract enabling subscription, milestone and pay-as-you-go models for unlimited businesses.
+- **Accord** (https://useaccord.xyz) — Schelling-point arbitration oracle on Solana. Decentralized dispute resolution for subjective questions: randomly drawn, stake-weighted jurors, commit-reveal voting, exponential appeals. Integrates via a two-call CPI interface.
+- **Riprap** (https://riprap.xyz) — permissionless mutuals on Solana. Peer-to-peer protection pools without an insurer; claims adjudicated by Accord jurors.
+- **mash** (https://mash.fun) — prediction markets and sports betting, including leveraged futures via modified Drift.
+- **Chaoscraft** (https://chaoscraft.dev) — collective creation experiment: 1,000 people pay $1 each to direct AI agents building into a shared codebase with automated spec, code generation, PR and deployment.
+- **Polycode** — multi-agent software development automation (CrewAI) with GitHub App integration.
+- **Allowly** (https://allowly.app) — pocket money for kids and AI agents.
+- **ChainSquad GmbH** (https://chainsquad.com) — blockchain technology consultancy, 26+ projects delivered since 2016.
+
+## Open Source
+
+- python-bitshares — full-featured BitShares library
+- python-graphenelib — library for Graphene-based blockchains
+- python-steem — STEEM blockchain library
+- soltrace — Kafka/Postgres/Mongo event indexer for Solana programs
+- accord — arbitration oracle program on Solana
+- piston / piston-cli — tooling for decentralized social media
+- BitShares Trezor and Steem Trezor integrations
+- Repository: https://github.com/xeroc
+
+## Career Highlights
+
+- 4 successful exits: Steemit Inc., Streemian.com, MakerDAO advisory, Cryptonomex
+- First person ever hired and paid directly by a blockchain (BitShares worker proposal system)
+- >500 million blocks produced across blockchains operated
+- Foundation board positions: PeerPlays, BitShares, Flux Capa, Graphene Foundation
+- Solana Security #2 graduate, SuperteamDE member
+- Hackathon wins: Colosseum RADAR (honorable mention), Colosseum Cypherpunk ($10k), Colosseum Frontier (2× first, third), Trezor Hackathon 2014 (2nd place)
+- Grants: Superteam Germany, Solana Foundation Germany, Agentic Engineering Grant 2026
+
+## Academic
+
+- Dr.-Ing., Electrical Engineering (2015): "Digital Communications for Low Latency and Applications for Constant Envelope Signalling", FAU Erlangen-Nürnberg
+- Publications on punctured trellis-coded modulation and reduced-complexity decoding over ISI channels
+- Publications list: https://dblp.org/pid/87/11471
+
+## Elsewhere
+
+- X / Twitter: https://x.com/xer0c
+- GitHub: https://github.com/xeroc
+- LinkedIn: https://www.linkedin.com/in/fabian-schuh/
+- DBLP: https://dblp.org/pid/87/11471

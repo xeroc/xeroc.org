@@ -1,8 +1,27 @@
 # Fabian Schuh
 
-Fabian Schuh is a blockchain engineer and entrepreneur based in Buckenhof, Germany.
-Founder of ChainSquad GmbH. PhD in communications engineering from FAU Erlangen-Nurnberg.
-Built core infrastructure for BitShares, Steem, and Solana ecosystems.
-Hackathon winner at Colosseum (Solana). SuperteamDE member.
+> Blockchain engineer (Dr.-Ing.) building peer-to-peer infrastructure on Solana — payments, arbitration, mutual risk pools. I believe people can do more together than apart, without surrendering control.
 
-Official website: https://xeroc.org
+## Pages
+
+- [About](https://xeroc.org/about/): Bio, academic background, research, key projects, hackathon wins
+
+## Projects
+
+- [Tributary](https://tributary.so): Recurring payments protocol on Solana — subscriptions, milestones, pay-as-you-go
+- [Accord](https://useaccord.xyz): Schelling-point arbitration oracle — decentralized dispute resolution on Solana
+- [Riprap](https://riprap.xyz): Permissionless mutuals — peer-to-peer protection pools, no insurer
+- [mash](https://mash.fun): Prediction markets and sports betting
+- [Chaoscraft](https://chaoscraft.dev): Collective creation — 1,000 people directing AI agents into one shared codebase
+- [Allowly](https://allowly.app): Pocket money for kids and AI agents
+- [ChainSquad](https://chainsquad.com): Blockchain and Web3 consultancy
+
+## Open Source
+
+- [GitHub](https://github.com/xeroc): python-bitshares, python-graphenelib, python-steem, soltrace, accord
+
+## Elsewhere
+
+- [X / Twitter](https://x.com/xer0c)
+- [LinkedIn](https://www.linkedin.com/in/fabian-schuh/)
+- [DBLP](https://dblp.org/pid/87/11471): Academic publications
